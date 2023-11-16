@@ -1,0 +1,59 @@
+import java.lang.Math;
+
+class Test{
+	public static void main(String args[]){
+		System.out.println(Math.E);
+		System.out.println(Math.PI);
+		double a=Math.pow(2.0,3.0);
+		System.out.println("pow value:"+a);
+		
+		int x=3;
+		int y=2;
+		int b=(int)Math.pow(x,y);
+		System.out.println("power value is :" +b);
+		
+		double c = Math.cbrt(1234.56);
+		System.out.println("cuberoot is:"+c);
+		
+		double d = Math.sqrt(144.0);
+		System.out.println("Square root :"+c);
+		
+		int w=90;
+		double e = Math.sin(w);
+		System.out.println("sin value is  :"+e);
+		
+		double f=Math.toRadians(w);
+		System.out.println("Radiance value is:"+f);
+		
+		double g=Math.sin(f);
+		System.out.println("sin value is:" +g);
+	}
+}
+
+Output
+/*
+2.718281828459045
+3.141592653589793
+pow value:8.0
+power value is :9
+cuberoot is:10.727636943228317
+Square root :10.727636943228317
+sin value is  :0.8939966636005579
+Radiance value is:1.5707963267948966
+sin value is:1.0
+
+*/
+
+
+		 
+		                          
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
