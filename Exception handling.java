@@ -150,4 +150,58 @@ TWO:::::  java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for le
 finally block
 
 
-//
+//No exception print  ouside the main
+class Eh{
+	public static void main(String args[]){
+		try{
+			int a=10/2;	
+		}
+		finally{
+			System.out.println("finally block");	
+		}
+		System.out.println("End");
+	}
+		}
+
+//output
+finally block
+End
+
+//have exception 
+class Eh{
+	public static void main(String args[]){
+		try{
+			int a=10/0;	
+		}
+		finally{
+			System.out.println("finally block");	
+		}
+		System.out.println("End");
+	}
+		}
+
+
+//Output
+finally block
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+        at Eh.main(Eh.java:4)
+
+
+class Eh{
+	public static void main(String args[]){
+		try{
+			int a=10/0;	
+		}
+		finally{
+			System.out.println("finally block");	
+		}
+	}
+		}
+//output
+finally block
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+        at Eh.main(Eh.java:4)
+
+
+
+
