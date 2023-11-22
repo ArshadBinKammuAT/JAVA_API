@@ -7,11 +7,6 @@ it will disturb normal flow of exception in program
 
 
 
-
-
-
-
-
 try{
 //block-need to write exception code
 }
