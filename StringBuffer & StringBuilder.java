@@ -1,4 +1,23 @@
 /*
+What is String?
+1.String is a class and it is final class and which is under java.lang.package.
+2.Collection of characters are called String.Collection of characters must be inside with in double quotes.
+eg: "arshad"
+3.String is an immutable.(can not be changed once intialized (value assigned)) object
+*/
+
+public class A{
+public static void main(String args[]){
+System.out.println("");
+}
+}
+
+
+
+
+
+
+/*
 String Builder 
 1.final class
 2.mutable object
@@ -82,7 +101,43 @@ TAMIL
 TAMIL
 LIMAT
 manoj
-maYYYnoj		
+maYYYnoj	
+
+public class Eh{
+	public static void main(String args[]){
+        String s1=new String();
+		//System.out.println(s1);
+		s1="arshad";
+		System.out.println(s1);
+		
+		char x[] = {'a','r','s','h','a','d'};
+		String s2=new String(x);
+		System.out.println(s2);
+		
+		String s3=new String("achuthodika");
+		System.out.println(s3);
+		
+		//copy constructor
+		String s4=new String(s3);
+		System.out.println(s4);
+		
+		//string literal object creation -without seeing constructor
+		String s5="binkammu";
+		System.out.println(s5);
+	
+	}
+}
+		
+
+//output
+arshad
+arshad
+achuthodika
+achuthodika
+binkammu
+
+
+	
 		
 		
 		
