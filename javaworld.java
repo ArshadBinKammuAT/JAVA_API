@@ -83,5 +83,93 @@ class Example{
 FAIL
 
 
+//While loop
+class Example{
+	public static void main(String args[]){
+		int i=10;
+		while(i>5){
+			System.out.println("Helloworld"+i);
+			i++;	
+		}
+		System.out.println("end");
+	}
+}
+
+//output
+Helloworld0
+Helloworld1
+Helloworld2
+Helloworld3
+Helloworld4
+end
+
+//do-while loop
+class Example{
+	public static void main(String args[]){
+		int i=0;
+		do{
+			System.out.println("abc");
+			i++;
+		}
+		while(i<5);{
+		}
+	}
+}
+//output
+abc
+abc
+abc
+abc
+abc
+
+//do-while loop
+class Example{
+	public static void main(String args[]){
+		int i=1;
+		while(i<1){
+			System.out.println("while loop");
+		}	
+		do{
+			System.out.println("do while loop");
+		}
+		while(i<1);
+	}
+}
+
+//Output
+do while loop
+
+class Example{
+	public static void main(String args[]){
+		int x=0;
+		while(x<5){
+			int y=0;
+			while(y<x){
+				System.out.println("*");
+				y++;
+			}
+			System.out.println();
+			x++;
+		}
+	}
+}	
+//Output
+*
+
+*
+*
+
+*
+*
+*
+
+*
+*
+*
+*
+
+
+
+
 
 
